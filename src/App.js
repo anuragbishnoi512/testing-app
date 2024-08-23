@@ -1,11 +1,14 @@
+import { Route, Routes } from "react-router-dom";
 import Home from "./components/view/Home";
 import Office from "./components/view/Office";
 
 function App() {
   return (
     <>
-      <Home />
-      <Office />
+      <Routes>
+        <Route path="/anurag" element={<Home />}></Route>
+        <Route path="/office" element={<Office />}></Route>
+      </Routes>
     </>
   );
 }

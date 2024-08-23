@@ -1,4 +1,4 @@
-import faqArrow from "../assets/images/png/instagram_post_template_travel 1.png";
+import faqArrow from "../assets/images/logo.png";
 
 export const Header_Image = [
     {

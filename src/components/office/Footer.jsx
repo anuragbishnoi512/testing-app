@@ -10,11 +10,10 @@ const Footer = () => {
             {obj.heading}
           </h2>
           <p>{obj.para}</p>
-          <img src="{obj.img}" alt="" />
+          <img src={obj.img} alt="image" />
         </div>
       ))}
     </div>
   )
 }
-
 export default Footer
