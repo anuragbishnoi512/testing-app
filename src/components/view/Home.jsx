@@ -3,6 +3,7 @@ import Hero from '../home/Hero'
 import Navbar from '../../common/Navbar'
 import Header from '../../common/Header'
 import Form from '../home/Form'
+import Footer from '../../common/Footer'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Header className="bg-gradiant" />
             <Hero />
             <Form />
+            <Footer />
         </div>
     )
 }

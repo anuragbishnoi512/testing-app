@@ -4,6 +4,7 @@ import partner from '../../assets/images/svg/Vector.svg'
 import { ANOTHER_DATA } from '../../utils/helper'
 import Header from '../../common/Header'
 import Form from '../home/Form'
+import Footer from '../../common/Footer'
 
 const Office = () => {
     return (
@@ -23,7 +24,7 @@ const Office = () => {
                     )}
                 </div>
             </div>
-            <Form />
+            <Footer />
         </div>
     )
 }
