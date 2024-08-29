@@ -2,9 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   const year = new Date().getFullYear();
+  let path = window.location.pathname;
+  console.log(path)
   return (
     <div>
-      <div className='bg-[#1E1E1E] rounded-[30px_30px_0px_0px] mt-[155px]'>
+      <div className={`bg-[#1E1E1E] mt-[155px] ${path == "/Office" ? "rounded-none bg-[#002B43]" : "rounded-[30px_30px_0px_0px]"}`}>
         <div className="container pt-[78px]">
           <div className="row w-full -mx-3 flex flex-row flex-nowrap justify-between">
             <div className="col-6 px-3 w-1/2">
