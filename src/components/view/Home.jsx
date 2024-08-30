@@ -4,6 +4,7 @@ import Navbar from '../../common/Navbar'
 import Header from '../../common/Header'
 import Form from '../home/Form'
 import Footer from '../../common/Footer'
+import SwiperSlider from '../home/SwiperSlider'
 
 const Home = () => {
     return (
@@ -11,7 +12,8 @@ const Home = () => {
             <Navbar />
             <Header className="bg-gradiant" />
             <Hero />
-            <Form />
+            <SwiperSlider />
+            {/* <Form /> */}
             <Footer />
         </div>
     )

@@ -6,12 +6,12 @@ const Footer = () => {
   console.log(path)
   return (
     <div>
-      <div className={`bg-[#1E1E1E] mt-[155px] ${path == "/Office" ? "rounded-none bg-[#002B43]" : "rounded-[30px_30px_0px_0px]"}`}>
+      <div className={`bg-[#1E1E1E] mt-[155px] ${path === "/Office" ? "rounded-none bg-[#002B43]" : "rounded-[30px_30px_0px_0px]"}`}>
         <div className="container pt-[78px]">
           <div className="row w-full -mx-3 flex flex-row flex-nowrap justify-between">
             <div className="col-6 px-3 w-1/2">
               <a href=""
-                className=' font-lato font-bold text-[38px] text-[#FF5501]'>Logo <span className=' text-white'>Here</span></a>
+                className={`font-lato font-bold text-[38px] ${path == "/Office" ? "text-[#007AFF] " :"text-[#FF5501]" }`}>Logo <span className=' text-white'>Here</span></a>
               <p className='max-w-[431px] font-lato font-normal text-[16px] leading-[22px] text-[#BBBBBB]'>Lorem ipsum dolor sit amet consectetur. Metus mattis cum sem integer est. Amet fringilla tristique hendrerit vestibulum diam est penatibus interdum imperdiet. Duis ut libero suspendisse arcu erat. Pulvinar in est.</p>
             </div>
             <div className="col-6 w-4/12 px-3">
