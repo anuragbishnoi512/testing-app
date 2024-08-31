@@ -9,7 +9,7 @@ const Navbar = ({ bgclassName = 'bg-[#F7F7F7]' }) => {
         <ul className='flex items-center gap-[24px]'>
           <li><Link to="/" className='font-lato font-normal text-[16px]'>Home</Link></li>
           <li><Link to="/Office" className='font-lato font-normal text-[16px]'>How It Works</Link></li>
-          <li><Link to="/testimonials" className='font-lato font-normal text-[16px]'>Testimonials</Link></li>
+          <li><Link to="/animation" className='font-lato font-normal text-[16px]'>Animation</Link></li>
           <li><Link to="/why-choose-us" className='font-lato font-normal text-[16px]'>Why Choose Us</Link></li>
         </ul>
         <div className="flex gap-[24px]">
