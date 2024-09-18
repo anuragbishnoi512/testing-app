@@ -9,8 +9,8 @@ import 'animate.css';
 const Header = ({ className }) => {
     return (
         <div className={`${className} min-h-[800px] pt-[160px] relative`}>
-            <div className="container">
-                <h1 className="text-[60px] leading-[72px] text-center text-white font-extrabold font-montserrat max-w-[914px] mx-auto animate__animated animate__bounce">
+            <div className="container animate__anim ated animate__flip  animate__infinite animate__slow">
+                <h1 className="text-[60px] leading-[72px] text-center text-white font-extrabold font-montserrat max-w-[914px] mx-auto">
                     Lorem ipsum dolor sit amet consectetur. Sceleris
                 </h1>
                 <p className="font-montserrat font-medium text-[16px] leading-[22px] mx-auto text-center text-white mt-[20px]">Lorem ipsum dolor sit amet consectetur. Id mattis at tristique duis.</p>
@@ -22,10 +22,10 @@ const Header = ({ className }) => {
                     <button className='p-[14px_24px] font-lato bg-[#FF722C] font-semibold text-center text-[16px] text-white p[14px_27px] rounded-[13px] items-center flex'>Start</button>
                 </div>
             </div>
-            <div className='w-3/12 max-w-[600px] absolute top-[25%] left-[4%]'>
+            <div className='w-3/12 max-w-[600px] absolute top-[25%] left-[4]'>
                 <Lottie animationData={Aeroplane} loop={true} />
             </div>
-            <div className='w-3/12 max-w-[600px] absolute top-[25%] right-[2%]'>
+            <div className='w-3/12 max-w-[600px] absolute top-[25%] right-[2%] animate__animated animate__slideInDown  animate__inf inite animate__slow'>
                 <Lottie animationData={Chooper} loop={true} />
             </div>
             <div className='w-full absolute top-[70%]  flex justify-center'>

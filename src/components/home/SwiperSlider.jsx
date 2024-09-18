@@ -9,8 +9,9 @@ import 'swiper/css/navigation';
 
 
 // import required modules
-import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
-import { Navigation } from 'swiper/modules';
+import { Autoplay, EffectCoverflow } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
+
 
 
 const SwiperSlider = () => {
@@ -19,10 +20,12 @@ const SwiperSlider = () => {
             <div className='container max-w-[1440px]'>
                 <Swiper
                     effect={'coverflow'}
-                    navigation={true}
                     grabCursor={true}
                     centeredSlides={true}
-                    pagination={{ clickable: true }}
+                    pagination={{
+                        el: '.custom-pagination',
+                        clickable: true,
+                    }}
                     slidesPerView={'auto'}
                     coverflowEffect={{
                         rotate: 50,
